@@ -1,0 +1,238 @@
+/* Universal Selector */
+* {
+  margin:0;
+  padding:0;  
+}
+
+
+/* Element Selectors */
+body {
+  position: relative;
+  font-family: "TT Drugs";
+  font-size: 20px;
+  background-color: black;
+  color:white;
+}
+
+
+h1,
+h2 {
+  margin: 20px;
+  margin-bottom: -5%;
+}
+
+main {
+  padding: 60px 0;
+  margin-top: -10%;
+  border-top: 2px solid rgba(55, 54, 54, 0.807);
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration:underline;
+}
+
+a {
+  text-decoration: none;
+  color: #a19a96;
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color:black;
+}
+
+header {
+  position: fixed;
+  border-bottom: 2px solid rgba(55, 54, 54, 0.807);
+}
+
+
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  border-bottom: 10px solid rgba(55, 54, 54, 0.807);
+  color: #FDF8F5;    
+}
+ 
+/* figure {
+  margin-bottom: 40px;
+}
+
+img {
+  margin: 20px auto;
+} */
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  background-color: black;
+}
+
+
+ 
+/* Class Selectors */
+/* .text-center {
+  text-align: center;
+} */
+
+.text-right {
+  text-align: right;
+}
+
+.float-right{
+  margin-right: 8%;
+  padding: 20px;
+  clear: both;
+  float: right;
+  max-width: 35%;
+  height: 40%;
+  z-index: 99;
+  text-align: justify;
+  margin-top: 3%;
+}
+
+#boss-lady {
+  font-size: 100px;
+  font-family: "Dream Avenue";
+  text-align: center;
+  text-decoration: double;
+}
+
+#about{
+  font-size: 46px;
+  margin-bottom: -45px;
+}
+
+.about-me{
+  margin-top: 10%;
+}
+
+
+
+#main-image1 {
+  height: 624px;
+  max-width: 31%;
+  float: left;
+  margin-left: 6%;
+  margin-top: 3%;
+}
+
+#main-image2 {
+  /* height:546px; */
+  /* width: 331px; */
+  max-width: 34%;
+  max-height: 456px;
+  position: relative;
+  left: -8%;
+  bottom: 235px;
+}
+
+/* .images {
+  /* display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 46px;
+}  */ 
+
+/* .images {
+  height:418px;
+  max-width: 45%;
+  display: flex;
+  flex-direction: row;
+  border: 3px solid white;
+
+}  */
+
+
+
+/* .projects-images {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex: 4 2 218px;
+
+} */
+
+/* #project1 {
+  flex-basis: 100%;
+width:50%;
+} */ 
+
+
+
+
+
+#project1 {
+  margin: 5px 10vw;
+  min-height: 350px;
+  max-height: 350px;
+  border: 2px solid red;
+  /* background-image: url("./assets/images/website.png");
+  background-size: cover; */
+
+  transition: all 0.5s
+}
+
+#project1 h2 {
+  display:inline-block;
+  margin-top: 280px;
+  padding: 5px;
+  background-color: red;
+}
+
+#project1:hover {
+  border: 10px blue solid;
+  opacity: 0.8;
+}
+
+.flex-parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-parent:first-child h1{
+  background-color: black;
+  border: 3px blue solid;
+  color: red;
+}
+
+.flex-parent div {
+  margin: 0px 7%;
+}
+
+.flex-subparent img {
+  height: 240px;
+  width: 20vw;
+  border: 3px solid white;
+  align-items: stretch;
+  justify-content: space-between;
+  /* margin-top: 3%;
+  margin-bottom: 3%;
+  font-size: 46px; */
+}
+
+@media screen and (min-width: 768px) {
+  /* large tablet and desktop */
+  /* #arrow{
+    position: absolute;
+    display: inline-block;
+    color:antiquewhite;
+    font-size: 150px;
+    transform: rotate(-20deg);
+    text-shadow: 0px 0px 3px black;
+    text-decoration: none;
+    top: -86px;
+    left: -36px;
+    z-index: 1;
+  } */
+}
