@@ -1,7 +1,7 @@
 /* Universal Selector */
 * {
-  margin:0;
-  padding:0;  
+  margin: 0;
+  padding: 0;
 }
 
 
@@ -11,10 +11,10 @@ body {
   font-family: "TT Drugs";
   font-size: 20px;
   background-color: black;
-  color:white;
+  color: white;
 }
 
-
+/* Style Selectors */
 h1,
 h2 {
   margin: 20px;
@@ -30,7 +30,7 @@ main {
 li {
   display: inline;
   padding: 0px 20px;
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 a {
@@ -43,7 +43,7 @@ footer {
   height: 60px;
   width: 100%;
   line-height: 60px;
-  background-color:black;
+  background-color: black;
 }
 
 header {
@@ -58,15 +58,10 @@ footer {
   margin-top: 0;
   bottom: 0;
   border-bottom: 10px solid rgba(55, 54, 54, 0.807);
-  color: #FDF8F5;    
+  color: #FDF8F5;
 }
- 
-/* figure {
-  margin-bottom: 40px;
-}
-img {
-  margin: 20px auto;
-} */
+
+
 
 section {
   margin-bottom: 0;
@@ -75,7 +70,7 @@ section {
 }
 
 
- 
+
 /* Class Selectors */
 .text-center {
   text-align: center;
@@ -85,7 +80,8 @@ section {
   text-align: right;
 }
 
-.float-right{
+/* About me section */
+.float-right {
   margin-right: 8%;
   padding: 20px;
   clear: both;
@@ -104,15 +100,16 @@ section {
   text-decoration: double;
 }
 
-#about{
+#about {
   font-size: 46px;
   margin-bottom: -45px;
 }
 
-.about-me{
+.about-me {
   margin-top: 10%;
 }
 
+/* Main pictures styles factor */
 #image-container {
   background-image: url("../images/image1.jpg");
   min-height: 624px;
@@ -122,6 +119,7 @@ section {
   background-size: cover;
 }
 
+/* Images style factors */
 #image-container img {
   position: relative;
   top: 115px;
@@ -137,84 +135,23 @@ section {
   margin-bottom: 2%;
 }
 
-/* #main-image1 {
-  height: 624px;
-  max-width: 31%;
-  float: left;
-  margin-left: 6%;
-  margin-top: 3%;
-}
-
-#main-image2 {
-  /* height:546px; */
-  /* width: 331px; */
-  /* max-width: 34%;
-  max-height: 456px;
-  position: relative;
-  left: -8%;
-  bottom: 235px;
-} */ 
-
-/* .images {
-  /* display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: space-between;
-  margin-top: 3%;
-  margin-bottom: 3%;
-  font-size: 46px;
-}  */ 
-
-/* .images {
-  height:418px;
-  max-width: 45%;
-  display: flex;
-  flex-direction: row;
-  border: 3px solid white;
-}  */
-
-
-
-/* .projects-images {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  flex: 4 2 218px;
-} */
-
-/* #project1 {
-  flex-basis: 100%;
-width:50%;
-} */ 
-
-
-
-
-
 #project1 {
   margin: 5px 10vw;
   margin-bottom: 3%;
   min-height: 450px;
   max-height: 450px;
   border: 2px solid rgba(88, 85, 85, 0.022);
-  /* background-image: url("./assets/images/website.png");
-  background-size: cover; */
-
   transition: all 0.5s
 }
 
-/* #project1 h5 {
-  display:inline-block;
-  margin-top: 280px;
-  padding: 15px;
-  background-color: red; 
-} */
 
+/* Project 1 hovering button */
 #project1:hover {
   border: 15px rgba(181, 181, 222, 0.032) solid;
   opacity: 0.8;
 }
 
+/* Flexbox */
 .flex-parent {
   display: flex;
   flex-wrap: wrap;
@@ -230,7 +167,7 @@ width:50%;
 }
 
 
-.flex-parent:first-child h6{
+.flex-parent:first-child h6 {
   background-color: black;
   border: 3px blue solid;
   color: red;
@@ -246,23 +183,27 @@ width:50%;
   border: 3px solid white;
   align-items: stretch;
   justify-content: space-between;
-  /* margin-top: 3%;
-  margin-bottom: 3%;
-  font-size: 46px; */
+
 }
 
-@media screen and (min-width: 768px) {
-  /* large tablet and desktop */
-  /* #arrow{
-    position: absolute;
-    display: inline-block;
-    color:antiquewhite;
-    font-size: 150px;
-    transform: rotate(-20deg);
-    text-shadow: 0px 0px 3px black;
-    text-decoration: none;
-    top: -86px;
-    left: -36px;
-    z-index: 1;
-  } */
+/* Contact section */
+.contact-me {
+  font-size: 30px;
+  font-family: "TT Drugs";
 }
+
+Small screen  and desktop features
+ @media screen and (min-width: 768px) {
+
+  #image-container {
+    display: none
+  }
+  .flex-subparent{
+    display: flex;
+    flex-direction: column;
+  }
+header{
+  background-color: #FDF8F5;
+}
+  }
+   
