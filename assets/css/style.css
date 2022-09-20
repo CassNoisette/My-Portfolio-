@@ -202,6 +202,11 @@ Small screen  and desktop features
     display: flex;
     flex-direction: column;
   }
+
+  .flex-parent{
+    display: flex;
+    flex-direction: column;
+  }
 header{
   background-color: #FDF8F5;
 }
